@@ -1,39 +1,39 @@
-@内建("regexMatch")
+@内建("regex.regexMatch")
 函数 匹配原语(模式, 文本)
     返回 假, 空
 结束
 
-@内建("regexFind")
+@内建("regex.regexFind")
 函数 查找原语(模式, 文本)
     返回 "", 空
 结束
 
-@内建("regexFindAll")
+@内建("regex.regexFindAll")
 函数 查找全部原语(模式, 文本, 数量)
     返回 [], 空
 结束
 
-@内建("regexFindGroups")
+@内建("regex.regexFindGroups")
 函数 分组原语(模式, 文本)
     返回 [], 空
 结束
 
-@内建("regexFindAllGroups")
+@内建("regex.regexFindAllGroups")
 函数 全部分组原语(模式, 文本, 数量)
     返回 [], 空
 结束
 
-@内建("regexReplace")
+@内建("regex.regexReplace")
 函数 替换原语(模式, 文本, 替换内容, 数量)
     返回 "", 空
 结束
 
-@内建("regexSplit")
+@内建("regex.regexSplit")
 函数 拆分原语(模式, 文本, 数量)
     返回 [], 空
 结束
 
-@内建("regexQuote")
+@内建("regex.regexQuote")
 函数 转义原语(文本)
     返回 ""
 结束
