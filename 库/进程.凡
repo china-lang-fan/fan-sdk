@@ -1,48 +1,39 @@
 导入 "库/转换" 作为 转换模块
 导入 "库/系统" 作为 系统模块
 
-@内建("processArgs")
-函数 参数原语()
+定义 本地("processArgs") 函数 参数原语()
     返回 []
 结束
 
-@内建("processScript")
-函数 脚本原语()
+定义 本地("processScript") 函数 脚本原语()
     返回 ""
 结束
 
-@内建("processEnv")
-函数 环境变量原语(任意 名称)
+定义 本地("processEnv") 函数 环境变量原语(任意 名称)
     返回 ""
 结束
 
-@内建("processSetEnv")
-函数 设置环境变量原语(任意 名称，任意 值)
+定义 本地("processSetEnv") 函数 设置环境变量原语(任意 名称，任意 值)
     返回 空
 结束
 
-@内建("processWorkingDir")
-函数 工作目录原语()
+定义 本地("processWorkingDir") 函数 工作目录原语()
     返回 ""
 结束
 
-@内建("processChangeDir")
-函数 切换目录原语(任意 路径)
+定义 本地("processChangeDir") 函数 切换目录原语(任意 路径)
     返回 空
 结束
 
-@内建("processPID")
-函数 进程号原语()
+定义 本地("processPID") 函数 进程号原语()
     返回 0
 结束
 
-@内建("processParentPID")
-函数 父进程号原语()
+定义 本地("processParentPID") 函数 父进程号原语()
     返回 0
 结束
 
-@内建("processExecute")
-函数 执行进程原语(任意 命令，任意 参数，任意 选项)
+定义 本地("processExecute") 函数 执行进程原语(任意 命令，任意 参数，任意 选项)
     返回 空, 空
 结束
 

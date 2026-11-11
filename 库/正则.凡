@@ -1,40 +1,32 @@
-@内建("regex.regexMatch")
-函数 匹配原语(任意 模式，任意 文本)
+定义 本地("regex.regexMatch") 函数 匹配原语(任意 模式，任意 文本)
     返回 假, 空
 结束
 
-@内建("regex.regexFind")
-函数 查找原语(任意 模式，任意 文本)
+定义 本地("regex.regexFind") 函数 查找原语(任意 模式，任意 文本)
     返回 "", 空
 结束
 
-@内建("regex.regexFindAll")
-函数 查找全部原语(任意 模式，任意 文本，任意 数量)
+定义 本地("regex.regexFindAll") 函数 查找全部原语(任意 模式，任意 文本，任意 数量)
     返回 [], 空
 结束
 
-@内建("regex.regexFindGroups")
-函数 分组原语(任意 模式，任意 文本)
+定义 本地("regex.regexFindGroups") 函数 分组原语(任意 模式，任意 文本)
     返回 [], 空
 结束
 
-@内建("regex.regexFindAllGroups")
-函数 全部分组原语(任意 模式，任意 文本，任意 数量)
+定义 本地("regex.regexFindAllGroups") 函数 全部分组原语(任意 模式，任意 文本，任意 数量)
     返回 [], 空
 结束
 
-@内建("regex.regexReplace")
-函数 替换原语(任意 模式，任意 文本，任意 替换内容，任意 数量)
+定义 本地("regex.regexReplace") 函数 替换原语(任意 模式，任意 文本，任意 替换内容，任意 数量)
     返回 "", 空
 结束
 
-@内建("regex.regexSplit")
-函数 拆分原语(任意 模式，任意 文本，任意 数量)
+定义 本地("regex.regexSplit") 函数 拆分原语(任意 模式，任意 文本，任意 数量)
     返回 [], 空
 结束
 
-@内建("regex.regexQuote")
-函数 转义原语(任意 文本)
+定义 本地("regex.regexQuote") 函数 转义原语(任意 文本)
     返回 ""
 结束
 
